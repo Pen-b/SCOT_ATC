@@ -1,0 +1,12 @@
+CODE,Description
+CC1,Pedal Cyclists
+CC2,Twin Wheeled Motor Vehicles
+CC3,Cars
+CC4,Buses
+CC5,Light Goods Vehicles
+CC6,Rigid 2 Axle HGVs
+CC7,Rigid 3 Axle HGVs
+CC8,Rigid 4+ Axle HGVs
+CC9,Articulated 4 Axle HGVs
+CC10,Articulated 5 Axle HGVs
+CC11,Articulated 6+ Axle HGVs

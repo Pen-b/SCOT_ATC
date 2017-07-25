@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.16.0-Nødebo">
+<qgis projectname="" version="2.16.1-Nødebo">
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -9,7 +9,9 @@
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" checked="Qt::Checked" id="EDGE_WKT_BNG20161026142915690" name="EDGE_WKT_BNG">
-      <customproperties/>
+      <customproperties>
+        <property key="overview" value="1"/>
+      </customproperties>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Google_Road20161026101036821" name="Google Road">
       <customproperties/>
@@ -19,10 +21,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-571463.6251569224987179</xmin>
-      <ymin>7555829.65729795768857002</ymin>
-      <xmax>-466485.69243435387033969</xmax>
-      <ymax>7669404.20813323929905891</ymax>
+      <xmin>-782439.04251803969964385</xmin>
+      <ymin>7267358.7454685103148222</ymin>
+      <xmax>-182741.73504936927929521</xmax>
+      <ymax>8131414.26010546274483204</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -70,7 +72,7 @@
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="EDGE_WKT_BNG" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="EDGE_WKT_BNG20161026142915690" visible="1"/>
+        <legendlayerfile isInOverview="1" layerid="EDGE_WKT_BNG20161026142915690" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Road" showFeatureCount="0">
@@ -81,6 +83,12 @@
   </legend>
   <projectlayers>
     <maplayer simplifyAlgorithm="0" minimumScale="100000" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>115310.48011580447200686</xmin>
+        <ymin>533623.28285489324480295</ymin>
+        <xmax>413445.69131464359816164</xmax>
+        <ymax>976547.40453408914618194</ymax>
+      </extent>
       <id>EDGE_WKT_BNG20161026142915690</id>
       <datasource>./gis/EDGE_WKT_BNG.shp</datasource>
       <keywordList>
